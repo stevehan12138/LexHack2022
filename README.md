@@ -15,6 +15,18 @@ This page is a list of our team
 
 This page lists all the schools
 
+## /login login
+
+This page allows to input your name
+
+## /myschools My Favorite schools
+
+This page shows all the saved schools
+
+## /schools/:schoolName
+
+This page shows all the data of a school
+
 
 ## To Do List
 - [x] Header / Footer

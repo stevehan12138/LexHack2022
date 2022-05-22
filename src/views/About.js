@@ -22,7 +22,7 @@ const About = () => {
 								Our ambition prompted us to create a website which encapsulated our ideas on a quality student service app.
 								While searching for app ideas for the student app themed hackathon, Lexhacks, the typical notion would be for the average student's daily life. 
 								Although our immediate presumption for our website was quotidian-oriented, we faced trouble at the banality of it. 
-								Our unconventional idea was realized because of our offbeat thinking. This idea catalyzed our website called "CU there"!. 
+								Our unconventional idea was realized because of our offbeat thinking. This idea catalyzed our website called "CU There"!. 
 							</Typography>
 							<img src={logo} alt="logo" style={{width: '300px', marginTop: '80px'}} />
 						</Grid>
