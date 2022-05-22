@@ -16,17 +16,17 @@ export default function Header(props) {
                     <Toolbar disableGutters>
                     <img src={logo} alt="logo" width='85px' />
                     <Box display='flex' flexGrow={1} >
-                        <MenuItem key="Home" sx={{ borderRadius: '7px' }}>
-                            <Link href="/" sx={{ textDecoration: 'none', color: 'black' }}>Home</Link>
+                        <MenuItem key="Home" sx={{ borderRadius: '7px', padding: '0' }}>
+                            <Link href="/" sx={{ textDecoration: 'none', color: 'black', padding: '5px 15px'}}>Home</Link>
                         </MenuItem>
-                        <MenuItem key="Schools" sx={{ borderRadius: '7px' }}>
-                            <Link href="/schools" sx={{ textDecoration: 'none', color: 'black' }}>Schools</Link>
+                        <MenuItem key="Schools" sx={{ borderRadius: '7px', padding: '0'}}>
+                            <Link href="/schools" sx={{ textDecoration: 'none', color: 'black', padding: '5px 15px' }}>Schools</Link>
                         </MenuItem>
-                        <MenuItem key="About Us" sx={{ borderRadius: '7px' }}>
-                            <Link href="/about" sx={{ textDecoration: 'none', color: 'black'}}>About Us</Link>
+                        <MenuItem key="About Us" sx={{ borderRadius: '7px', padding: '0' }}>
+                            <Link href="/about" sx={{ textDecoration: 'none', color: 'black', padding: '5px 15px' }}>About Us</Link>
                         </MenuItem>
                     </Box>
-                    <Typography variant="body1" color="inherit" sx={{marginRight: '30px', fontSize: '18px'}}> Hi, {localStorage.getItem('username')} </Typography>
+                    <Typography variant="body1" color="inherit" sx={{marginRight: '30px', fontSize: '18px'}}> Hi, {localStorage.getItem('username') !== null ? localStorage.getItem('username') : <Link href="/login" sx={{ textDecoration: 'none' }}>Login</Link> } </Typography>
                     <Button variant="outlined" href="/myschools">My Schools</Button>
                     </Toolbar>
                 </Container>

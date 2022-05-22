@@ -10,7 +10,7 @@ const About = () => {
 		<>
 			
 			<Header gradient="linear-gradient(to bottom, #E0F9FF, #FFFFFF);" />
-			<Box sx={{ width: '100%', height: '100vh'}}>
+			<Box sx={{ width: '100%', minHeight: '80vh'}}>
 				<Box sx={{ height: '400px', backgroundColor: '#2b4743'}}>
 					<Typography variant="h3" component="h2" sx={{ textAlign: 'center', paddingTop: '150px', color: 'white'}}>About Us</Typography>
 				</Box>
@@ -23,8 +23,6 @@ const About = () => {
 								While searching for app ideas for the student app themed hackathon, Lexhacks, the typical notion would be for the average student's daily life. 
 								Although our immediate presumption for our website was quotidian-oriented, we faced trouble at the banality of it. 
 								Our unconventional idea was realized because of our offbeat thinking. This idea catalyzed our website called "CU there"!. 
-
-
 							</Typography>
 							<img src={logo} alt="logo" style={{width: '300px', marginTop: '80px'}} />
 						</Grid>
